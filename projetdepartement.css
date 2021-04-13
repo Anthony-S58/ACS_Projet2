@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+
+/* header */
+
+body {
+    background-color: rgb(63, 55, 55);
+    background-image:url(/IMG/background.jpg);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Antonio', sans-serif;
+    
+}
+.headerimg {
+        
+            width: 500px;
+            height:250px;
+            
+}
+header {
+    display: flex;
+    width : 1200px;
+    height: 350px;
+    background-image:url(/IMG/accueil\ photo3\ saint\ tropez.jpg) ;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* nav */
+.Menuhead {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    
+    height:150px;
+    color: rgb(243, 240, 240);
+}    
+.button1, .button2, .button3 {
+    height: 100px;
+    width:300px;
+    font-size: 2em;
+    font-family: 'Antonio', sans-serif;
+} 
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* aide */
+div {
+    border:1px solid white;
+    
+}
