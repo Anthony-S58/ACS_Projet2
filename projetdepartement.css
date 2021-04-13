@@ -12,11 +12,14 @@ body {
     flex-direction: column;
     font-family: 'Antonio', sans-serif;
     
+    
+    
 }
 .headerimg {
         
-            width: 500px;
-            height:250px;
+            width: 250px;
+            height:150px;
+            
             
 }
 header {
@@ -24,7 +27,7 @@ header {
     width : 1200px;
     height: 350px;
     background-image:url(/IMG/accueil\ photo3\ saint\ tropez.jpg) ;
-    border-radius: 10%;
+    border-radius:20px;
     justify-content: center;
     align-items: center;   
 }
@@ -33,18 +36,35 @@ header {
 .Menuhead {
     display: flex;
     list-style-type: none;
-    align-items: center;
-    justify-content: space-around;
+
+    justify-content: space-between;
     
     height:150px;
     color: rgb(243, 240, 240);
 }    
-.button1, .button2, .button3 {
-    height: 100px;
-    width:300px;
-    font-size: 2em;
+.button1, .button2, .button3, .button4 {
+    height: 80px;
+    width:250px;
+    font-size: 1.5em;
     font-family: 'Antonio', sans-serif;
+    border-radius:20px;
+    background-color: transparent;
+    border-color: rgb(252, 215, 6);
+    
+    
 } 
+
+/* section1 */
+
+section {
+    background-color: rgb(63, 119, 223);
+    width: 1200px;
+    border-radius:20px;
+}
+img {
+    width:1200px;
+    height: 500px;
+}
 a {
     text-decoration: none;
 }
