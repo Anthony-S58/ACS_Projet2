@@ -12,8 +12,7 @@ body {
     display: flex;
     align-items:center;
     flex-direction: column;
-    font-family: 'Antonio', sans-serif; 
-      
+    font-family: 'Antonio', sans-serif;     
 }
 
 .lieux {
@@ -32,6 +31,13 @@ body {
 
 }
 
+.actus {
+    background-image: url(/IMG/fondactu.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 .header img {
             display: flex;
             align-self: flex-start;
@@ -40,7 +46,7 @@ body {
 }
 
 h2 {
-    font-size:2em;
+    font-size:2.5em;
 }
 
 header {
@@ -109,6 +115,7 @@ h2 {
 .marche {
     display: flex;
     justify-content: space-around;
+    color: rgb(32, 30, 30);
 }
 
 .marche img{
@@ -118,6 +125,20 @@ h2 {
     
 
 }
+
+.article {
+    width:1200px;
+    height:2000px;
+    
+    
+    background-image: url(/IMG/papierfroisse.jpg);
+    
+}
+
+.article p {
+    color:black;
+}
+
 
 /* test image lieux incontournables */
 
