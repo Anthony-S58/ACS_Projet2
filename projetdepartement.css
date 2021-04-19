@@ -515,12 +515,18 @@ footer iframe {
 
 @media screen and (max-width:1260px) {
     header {
-        width:1180px;
+        width:auto;
     }
     section, section img, .example, .content, footer, footer iframe {
         width:1150px;
     }
+    /* test */
+    
 }
+
+
+
+
 
 @media screen and (max-width:1235px) {
     header {
@@ -611,10 +617,8 @@ footer iframe {
     html {
         justify-content: center;
     }
-    .article {
-        height: auto;
-        width: auto;
-    }
+    
+    
 }
 
     
