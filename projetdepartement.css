@@ -131,8 +131,10 @@ h2 {
     width:1200px;
     height:2650px;  
     background-image: url(IMG/papierfroisse.jpg);
-    filter: grayscale(100%);   
+    /* filter: grayscale(100%);    */
 }
+
+            
 
 
 .article p {
@@ -408,7 +410,77 @@ h2 {
     
     
 }
+            .t7{
+                filter:grayscale(100%);
+            }
 
+            .t7:hover{
+                filter: grayscale(0%);
+            }
+
+            .t7-3{
+                filter:grayscale(100%);
+            }
+
+            .t7-3:hover{
+                filter: grayscale(0%);
+            }
+
+            .t9{
+                filter:grayscale(100%);
+            }
+
+            .t9:hover{
+                filter: grayscale(0%);
+            }
+
+            .t10{
+                filter:grayscale(100%);
+            }
+
+            .t10:hover{
+                filter: grayscale(0%);
+            }
+
+            .t11{
+                filter:grayscale(100%);
+            }
+
+            .t11:hover{
+                filter: grayscale(0%);
+            }
+
+            .t12{
+                filter:grayscale(100%);
+            }
+
+            .t12:hover{
+                filter: grayscale(0%);
+            }
+
+            .t13{
+                filter:grayscale(100%);
+            }
+
+            .t13:hover{
+                filter: grayscale(0%);
+            }
+
+            .t15{
+                filter:grayscale(100%);
+            }
+
+            .t15:hover{
+                filter: grayscale(0%);
+            }
+            
+            .t18{
+                filter:grayscale(100%);
+            }
+
+            .t18:hover{
+                filter: grayscale(0%);
+            }
 
 
 
