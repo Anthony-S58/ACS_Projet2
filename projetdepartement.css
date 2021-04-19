@@ -24,7 +24,6 @@ body {
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
-
 }
 
 .metf {
@@ -32,7 +31,6 @@ body {
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
-
 }
 
 .actus {
@@ -64,8 +62,7 @@ header {
 
 .Menuhead {
     margin:-20px;
-    height:100px;
-    
+    height:100px;    
 }
 
 .button1, .button2, .button3, .button4 {
@@ -143,6 +140,8 @@ h2 {
 }
 
 
+
+
 /* test image lieux incontournables */
 
 
@@ -193,8 +192,7 @@ h2 {
 .grid1 > div {
     display: flex;
     justify-content: center;
-    font-family: 'New Tegomin', serif;
-    
+    font-family: 'New Tegomin', serif;  
 }
 
 .grid2 > div {
@@ -464,18 +462,17 @@ footer iframe {
 @media screen and (max-width:1210px) {
     
 
-.Menuhead {
-    flex-direction: column;
-    display: flex;
-    height:340px;
-}
-header {
+    .Menuhead {
+        flex-direction: column;
+        display: flex;
+        height:340px;
+    }
+    header {
     width:1150px;
-    
-}
-section, section img, .example, .content, footer, footer iframe {
+    }
+    section, section img, .example, .content, footer, footer iframe {
     width:1120px;
-}
+    }
 }
 
 @media screen and (max-width:1170px) {
@@ -524,7 +521,6 @@ section, section img, .example, .content, footer, footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:770px;
         font-size: 1em;
-
     }
     
 }
@@ -536,7 +532,6 @@ section, section img, .example, .content, footer, footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:710px;
         font-size: 1em;
-
     }
     .Menufoot a{
         justify-content: flex-start;
@@ -544,7 +539,14 @@ section, section img, .example, .content, footer, footer iframe {
     html {
         justify-content: center;
     }
+    .article {
+        height: auto;
+        width: auto;
+    }
 }
+
+    
+
 
 /* aide */
 /* div {
