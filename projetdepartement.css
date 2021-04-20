@@ -522,7 +522,7 @@ footer iframe {
     }
     .article {
         width: 1150px;
-        height: 2800px;
+        height: 2825px;
     }
     /* test */
     
@@ -550,7 +550,7 @@ footer iframe {
         background-image: none;
     }
     .t6 {
-        background-image: url(/IMG/art3.jpg);
+        background-image: url(IMG/art3.jpg);
         background-size: cover;
         width: 705px;
         filter: grayscale(100%);
@@ -586,7 +586,7 @@ footer iframe {
     }
     .article {
         width: 1060px;
-        height: 2800px;
+        height: 2810px;
     }
 }
 
@@ -600,7 +600,7 @@ footer iframe {
     }
     .article {
         width: 970px;
-        height: 2800px;
+        height: 2930px;
     }
 }
 
@@ -614,7 +614,7 @@ footer iframe {
     }
     .article {
         width: 920px;
-        height: 2800px;
+        height: 2935px;
     }
 }
 
@@ -628,7 +628,7 @@ footer iframe {
     }
     .article {
         width: 850px;
-        height: 2800px;
+        height: 3025px;
     }
 }
 
@@ -642,7 +642,7 @@ footer iframe {
     }
     .article {
         width: 770px;
-        height: 2800px;
+        height: 3270px;
     }
     
 }
@@ -663,8 +663,17 @@ footer iframe {
     }
     .article {
         width:705px;
-        height: 3465px;
+        height: 3470px;
     }
+    .t6 {
+        background-image: url(IMG/art3.jpg);
+        background-size: cover;
+        
+        filter: grayscale(100%);
+    }
+        .t6:hover {
+            filter: grayscale(0%);
+        }
     
 }
 
