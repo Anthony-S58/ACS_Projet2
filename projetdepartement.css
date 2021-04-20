@@ -520,6 +520,10 @@ footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:1150px;
     }
+    .article {
+        width: 1150px;
+        height: 2800px;
+    }
     /* test */
     
 }
@@ -535,6 +539,26 @@ footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:1120px;
     }
+    .article {
+        width: 1120px;
+        height: 2800px;
+    }
+    .grid1, .grid2 {
+        display: block;
+    }
+    .t10, .t12, .t13, .t6{
+        background-image: none;
+    }
+    .t6 {
+        background-image: url(/IMG/art3.jpg);
+        background-size: cover;
+        width: 705px;
+        filter: grayscale(100%);
+    }
+        .t6:hover {
+            filter: grayscale(0%);
+        }
+    
 }
 
 @media screen and (max-width:1210px) {
@@ -560,6 +584,10 @@ footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:1060px;
     }
+    .article {
+        width: 1060px;
+        height: 2800px;
+    }
 }
 
 @media screen and (max-width:1130px) {
@@ -569,6 +597,10 @@ footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:970px;
         font-size: 1em;
+    }
+    .article {
+        width: 970px;
+        height: 2800px;
     }
 }
 
@@ -580,6 +612,10 @@ footer iframe {
         width:920px;
         font-size: 1em;
     }
+    .article {
+        width: 920px;
+        height: 2800px;
+    }
 }
 
 @media screen and (max-width:970px) {
@@ -590,6 +626,10 @@ footer iframe {
         width:850px;
         font-size: 1em;
     }
+    .article {
+        width: 850px;
+        height: 2800px;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -599,6 +639,10 @@ footer iframe {
     section, section img, .example, .content, footer, footer iframe {
         width:770px;
         font-size: 1em;
+    }
+    .article {
+        width: 770px;
+        height: 2800px;
     }
     
 }
@@ -617,7 +661,10 @@ footer iframe {
     html {
         justify-content: center;
     }
-    
+    .article {
+        width:705px;
+        height: 3465px;
+    }
     
 }
 
